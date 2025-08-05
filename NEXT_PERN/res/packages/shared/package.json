@@ -1,0 +1,23 @@
+{
+  "name": "@shared/first",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "tsc --build",
+    "check": "tsc --noEmit",
+    "dev": "tsc --watch",
+    "start": "tsc --build"
+  },
+  "type": "module",
+  "exports": {
+    "./*": "./dist/*"
+  },
+  "dependencies": {
+    "uuid": "^11.1.0",
+    "zod": "^4.0.14"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  }
+}
