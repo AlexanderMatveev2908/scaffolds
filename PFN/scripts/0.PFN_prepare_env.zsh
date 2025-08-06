@@ -1,11 +1,3 @@
-PFN_remove_dir(){
-    rm -rf $1/{*,.*,(.|..)}(N)
-}
-
-copy_content(){
-    yes | cp -r $1/{*,.*,(.|..)}(N) $2
-}
-
 PFN_prepare_env(){
     export CI=1
     export YARN_ENABLE_IMMUTABLE_INSTALLS=0
