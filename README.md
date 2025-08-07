@@ -44,9 +44,9 @@ Replace **ninja** with your own Linux username.
 
 You can either place the scaffold in the expected path manually, or just copy it anywhere and use VS Code’s global search & replace:
 
-> Hit CTRL + SHIFT + F
-> Paste one of the paths above
-> Replace all occurrences in one go
+1. Hit CTRL + SHIFT + F
+2. Paste one of the paths above
+3. Replace all occurrences in one go
 
 ### 🛠️ Shared Scripts
 
